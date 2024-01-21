@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-1 {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.card-2 {
+    width: 474px;
+    height: 140px;
+    flex-shrink: 0;
+    color: #151515;
+
+    /* Hero */
+    font-family: Fira Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    
+    /* 116.667% */
+    letter-spacing: -1px;
+    margin-left: 126px;
+    margin-top: 67px;
+    display: flex;
+}
+
+.card-3 {
+    width: 400px;
+    height: 81px;
+    flex-shrink: 0;
+    color: var(--Black, #222);
+
+    /* Paragrapgh */
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* 155.556% */
+    margin-left: 126px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.card-4 {
+    width: 665px;
+    height: 840px;
+    flex-shrink: 0;
+    margin-top: -300px;
+    margin-left: 846px;
+}
+
+.card-5 {
+    margin-left: 700px;
+    margin-top: -450px;
+    width: 300px;
+}
+
+.card-6 {
+    width: 189px;
+    height: 50px;
+    flex-shrink: 0;
+    color: var(--White, #FFF);
+    text-align: center;
+
+    /* Label */
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 4px;
+    background-color: #4737FF;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-width: 0px;
+    position: absolute;
+    left: 126px;
+    bottom: 100px;
+
+}
+
+.card-7 {
+    margin-left: 126px;
+    margin-top: 20px;
+}
+
+.card-8 {
+    margin-top: 100px;
+    margin-left: 126px
+}
+
+.card-9 {
+    color: var(--Black, #222);
+
+    /* Big Title */
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+   
+    /* 125% */
+    letter-spacing: -1px;
+    width: 540px
+}
+
+.card-10 {
+    width: 444.824px;
+    height: 81px;
+    flex-shrink: 0;
+    color: var(--Black, #222);
+
+    /* Paragrapgh */
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+    /* 155.556% */
+}
+
+.card-11 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.card-12{
+    display: flex;
+    gap: 50px;
+    margin-left: 126px;
+    margin-top: 100px;
+}
+.card-12 b{
+    width: 460px;
+    font-size: 30px;
+    display: flex;
+}
+.card-12 p{
+    margin-left:200px;
+    opacity: 70%;
+}
+.card-20{
+    width: 222px;
+    height: 50px;
+     flex-shrink: 0;
+    background: #4737FF;
+    display: inline-block;
+    color: aliceblue;
+    border-width: 0px;
+    cursor: pointer;
+    font-family: "Fira Sans";
+    text-transform: uppercase;
+}
+.card-21{
+    width: 470px;
+}
+
+.card-23{
+    background-color: #515151;;
+    width: 100%;
+    height: 240px;
+    margin-top: 100px;
+}
+
+@media screen and ( max-width: 470px) {
+    .card-100{
+        display: none;
+    } 
+    .card-2{
+        margin-left: 30px;
+        font-size: 30px;
+        width: 300px;
+    }
+    .card-3{
+        margin-left: 30px;
+        margin-top: -50px;
+        font-size: 12px;
+        width: 300px;
+    }
+    .card-6{
+        position: absolute;
+        top: 300px;
+        margin-left: -95px;
+    }
+    .card-4{
+        display: none;
+
+    }
+    .card-5{
+        margin-left: 30px;
+        width: 200px;
+        display: flex;
+        height: 200px;
+        margin-top: 100px;
+    }
+    .card-7{
+        margin-left: 70px;
+        width: 170px;
+        height: 10px;
+    }
+    .card-99{
+        display: none;
+    }
+    .card-9{
+        margin-left: -80px;
+        font-size: 20px;
+        width: 300px;
+        margin-top: -100px;
+    }
+    .card-10{
+        font-size: 13px;
+        width: 300px;
+        margin-left: -80px;
+        margin-top: 20px;
+    }
+    .card-12 b{
+        font-size: 12px;
+        width: 250px;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+    .tel-2{
+        display: none;
+    }
+    .tel-3{
+        display: none;
+    }
+    .tel-1{
+        width: 40px;
+        
+    }
+    .tel-4{
+        width: 300px;
+        height: 300px;
+        margin-left: 80px;
+    }
+    .tel-5{
+        display: none;
+        
+    }
+    .tel-6{
+        margin-top: -150px;
+    }
+    .tel-7{
+        display: none;
+    }
+    .tel-8{
+        display: none;
+    }
+    .tel-10{
+        font-size: 12px;
+        display: none;
+    }
+    .div-01{
+        display: none;
+    }
+    .div-02{
+        display: none;
+    }
+    .div-03{
+        display: none;
+    }
+    .div-04{
+        display: none;
+    }
+    
+    .div-05{
+        margin-left: -80px;
+        margin-top: 200px;
+        
+    }
+    
+    .div-06{
+        margin-left: -80px;
+    }
+    .tel-20{
+     margin-top: 70px;
+    display: flex;
+    position: absolute;
+    left: 110px;
+    
+    }
+    .tel-21{
+        margin-top: 130px;
+        position: absolute;
+        left: 110px;
+    }
+    .tel-11{
+        display: none;
+    }
+    .tel-25{
+        margin-left: -90px;
+        width: 300px;
+    }
+    .tel-30{
+        margin-top: 100px;
+        display: flex;
+        margin-right: 500px;
+    }
+    .tel-31{
+        margin-left: 450px;
+        font-size: 18px;
+        width: 300px;
+        display: flex;
+    }
+    .tel-35{
+        display: none;
+    }
+}
